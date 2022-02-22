@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:wght@300&display=swap');
+
+/* .headerDiv {
+    background-color: lightgreen;
+} */
+
+.mainCardDiv {
+    height: 380px;
+    background-color: #f0f5f5;
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.4);
+    margin: 10%;
+}
+
+.cardImg {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cardContents {
+    padding: 5%;
+}
+
+.bookingBtn {
+    width: 100%;
+    border: none;
+    background-color: #000033;
+    color: #fff;
+    padding: 4%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.bookingBtn:hover {
+    background-color: #000099;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.fa-heart {
+    color: #ff0000;
+}
+
+.fa-star {
+    color: #cccc00;
+}
+
+.movieName {
+    font-family: Lato;
+}
+
+.interested {
+    font-family: Ubuntu;
+}
+
+.rating {
+    font-family: Ubuntu;
+}
